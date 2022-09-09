@@ -1,0 +1,269 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e5e9f0;
+    scroll-behavior: smooth;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #eceff4;
+}
+.navbar {
+    background:#2e3440;
+}
+.nav-link,
+.navbar-brand {
+    color: #eceff4;
+    cursor: pointer;
+}
+.navbar-brand:hover {
+    color: #d8dee9;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #d8dee9;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('nord.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(46, 52, 64, 0.4);
+}
+
+.navbar-brand image:hover{
+    color: #d8dee9;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #d8dee9;
+}
+.description p {
+	color: #eceff4;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #4c566a;
+    background:#4c566a;
+    border-radius: 8px;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #e5e9f0;
+    background:#e5e9f0;
+    color:#3b4252;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+section {
+    background-color: #e5e9f0;
+    padding: 0;
+    margin-top: 0;
+    color: #3b4252;
+}
+
+.information-button:hover {
+    border:1px solid #e5e9f0;
+    border-radius: 8px;
+    background:#d8dee9;
+    color:#3b4252;
+}
+
+.information-button {
+    border:1px solid #e5e9f0;
+    background:#e5e9f0;
+    color:#3b4252;
+    font-size: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information-button img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-4{
+    align-items: center;
+}
+
+.centered-text{
+    display: block;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 0px;
+    color:#3b4252;
+    font-size: 36px; 
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.container-fluid{
+    margin:0px;
+    padding-bottom:150px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+h3{
+    padding-bottom: 0;
+    color: #eceff4;
+    font-size: 48px;
+}
+
+.what{
+    background-color: #4c566a;
+    color: #eceff4;
+}
+
+.gQLtuu {
+    fill: #e5e9f0;
+    transition: fill 400ms ease-in-out 0s;
+  }
+
+.laHIGl {
+    display: block;
+    margin:0;
+    padding-left: 0;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    background-color: transparent;
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+
+.laHIGlA {
+    display: block;
+    margin:0;
+    padding-left: 0;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    background-color: transparent;
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    position: inherit;
+    bottom: 0px;
+}
+
+.gQLtuu{
+    fill: #e5e9f0;
+    transition: fill 400ms ease-in-out 0s;
+}
+
+.ghIZUL {
+    fill: #4c566a;
+    transition: fill 400ms ease-in-out 0s;
+  }
+
+.row {
+    display: flex;
+}
+
+.row2 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 50px;
+    background-color: transparent;
+    justify-content: center;
+    align-content: center;
+}
+.column {
+    flex: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.how{
+    background-color: #3b4252;
+    color: #eceff4;
+}
+
+.teachers{
+    background-color: #434c5e;
+    color: #eceff4;
+}
+
+.ivkvrv {
+    fill: #3b4252;
+    transition: fill 400ms ease-in-out 0s;
+}
+
+.dSrfKq {
+    stroke: #88c0d0;
+    fill: none;
+    transition: fill 400ms ease-in-out 0s;
+  }
+
+audio{
+    height: 200px;
+    width: 800px;
+}
+
+.feedback{
+    background-color: #4c566a;
+    color: #eceff4;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
